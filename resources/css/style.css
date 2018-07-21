@@ -1,2 +1,155 @@
+html {
+font-size: 14px;
 font-family: 'Open Sans', sans-serif;
-font-family: 'Monoton', cursive;
+line-height: 1.4em;
+}
+
+
+body {
+padding-top: 70px;
+}
+
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+strong {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+div {
+  border: 1px solid;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  color: rgba(0, 0, 0.7);
+}
+
+
+.relative-wrapper{
+  position: relative;
+  text-align: center;
+  top: -16rem;
+}
+
+.image-container {
+  opacity: 0.7;
+}
+
+/* Navigation */
+
+.navbar-default {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  color: #399bd1;
+  background-color: inherit;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  cursor: pointer;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 44rem;
+  padding: 11.85rem 0;
+}
+
+.jumbotron-bike {
+  background-image: url("resources/images/jumbotron-bike.jpg");
+}
+
+.jumbotron-beer {
+  background-image: url("resources/images/jumbotron-beer.jpg");
+}
+
+.jumbotron-duffel {
+  background-image: url("resources/images/jumbotron-duffel.jpg");
+}
+
+.jumbotron-flowers {
+  background-image: url("resources/images/jumbotron-flowers.jpg");
+}
+
+.jumbotron h1 {
+  font-family: 'Monoton';
+  font-size: 7.1rem;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.jumbotron p {
+  color: white;
+  max-width: 51.3rem;
+  margin: auto;
+}
+
+
+/* Button */
+
+.btn-primary {
+  width: 11.4rem;
+  padding: 1.3rem 0;
+  margin-top: 2.8rem;
+  background-color: #399BD1;
+  font-weight: bold;
+  transition: .5s box-shadow;
+  border: none;
+}
+
+.btn-primary:hover{
+  box-shadow: 0 0 12px rgba(0,0,0,0.9);
+}
+
+.btn-primary:active{
+  box-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+/* Projects */
+
+.products {
+  padding-bottom: 5.85rem;
+}
+
+.product {
+  padding-bottom: 5.85rem;
+}
+
+.container h2 {
+  padding-left: 15px;
+}
+
+/* Trouble */
+
+.trouble {
+  text-align: center;
+  background-color: #f3f3f3;
+  padding: 5.2rem 0;
+}
+
+.trouble p {
+max-width: 42rem;
+margin: auto;
+padding-top: 1.4rem;
+}
