@@ -39,12 +39,6 @@ li {
   color: rgba(0, 0, 0.7);
 }
 
-
-
-
-
-
-
 /* Navigation */
 
 .navbar-default {
@@ -74,19 +68,17 @@ li {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-
-
 #background-bike {
-  background-image: url("../resources/images/jumbotron-bike.jpg");
+  background-image: url("../images/jumbotron-bike.jpg");
 }
 .background-beer {
-  background-image: url("../resources/images/jumbotron-beer.jpg");
+  background-image: url("../images/jumbotron-beer.jpg");
 }
 .background-duffel {
-  background-image: url("../resources/images/jumbotron-duffel.jpg");
+  background-image: url("../images/jumbotron-duffel.jpg");
 }
 .background-flowers {
-  background-image: url("../resources/images/jumbotron-flowers.jpg");
+  background-image: url("../images/jumbotron-flowers.jpg");
 }
 
 .jumbotron h1 {
